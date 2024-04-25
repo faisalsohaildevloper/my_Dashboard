@@ -39,21 +39,22 @@ const Layout = ({ children }) => {
    */}
 
       <Row style={{ minHeight: "100vh" }}>
-        <Col md={4} xs={0} className="sidebar">
+        <Col md={4} xs={0} className="leftSide">
           <div className="logo">
             <h3>Faisal Khan Surma</h3>
           </div>
           <Siderbar />
         </Col>
+       
 
-        <Col md={16} xs={24} className="rightSide">
+        <Col md={16} xs={24} className="midSide">
           <TopHeader setMobileSiderbar={setMobileSiderbar}/>
 
           
           {children}
         </Col>
 
-        <Col md={4} xs={0} className="sidebar">
+        <Col md={4} xs={0} className="rightSide">
           <div className="logo">
           <Button onClick={()=> router()}>logout</Button>
             <Siderbar />

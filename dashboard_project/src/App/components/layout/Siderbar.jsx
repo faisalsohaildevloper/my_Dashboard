@@ -19,7 +19,18 @@ const Siderbar = () => {
     {
       name: "Contact",
       path: paths.contact
+    },
+
+    {
+      name: "Category",
+      path: paths.category
+    },
+    {
+      name: "Group",
+      path: paths.group
     }
+    
+  
   ]
   
 

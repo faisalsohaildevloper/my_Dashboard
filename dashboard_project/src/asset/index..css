@@ -10,21 +10,47 @@
 
 .leftSide {
   /* background-color: violet; */
+  border-left: 1px solid rgba(191, 191, 191, 0.253);
+}
+
+.rightSide {
+  /* background-color: violet; */
   border-right: 1px solid rgba(191, 191, 191, 0.253);
 }
 
-.sidebar .logo{
+
+.midSide {
+  /* background-color: violet; */
+  border-right: 1px solid rgba(191, 191, 191, 0.253);
+}
+
+.leftSide .logo{
   text-align: center;
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
-.sidebar .menu{
+.rightSide .logo{
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.leftSide .menu{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: start;
-  padding-left: 10px;
+  padding-left: 5px;
+  gap: 10px;
+
+}
+
+.rightSide .menu{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  padding-right: 5px;
   gap: 10px;
 
 }
